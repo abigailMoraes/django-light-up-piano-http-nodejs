@@ -1,9 +1,9 @@
-import { createServer } from "http";
+// import { createServer } from "http";
 
-createServer((req, res) => {
-  res.write("Hello World!");
-  res.end();
-}).listen(process.env.PORT);
+// createServer((req, res) => {
+//   res.write("Hello World!");
+//   res.end();
+// }).listen(process.env.PORT);
 
 const io = require("socket.io")(3000);
 
